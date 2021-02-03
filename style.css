@@ -1,0 +1,192 @@
+
+    .container
+    {
+    width:90%;
+    margin-left: 10%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    box-sizing:border-box;
+    overflow: hidden;
+    min-height:100vh;
+  
+    }
+    .my-style
+    {
+    width:25%;
+    float:left;
+    background-color:cadetblue;
+    border-style: double;
+    color:white;
+    padding:30px;
+    font-family: 'Times New Roman', Times, serif;
+    height:fit-content;
+    }
+    img {
+    width:120px;
+    padding: top 0;
+    border-radius: 50%;
+    align-items: center;
+    
+    }
+    .my-style1
+    { 
+    width:40%;
+    float:left;
+    
+    padding-top:10px;
+    padding-bottom:45px;
+    padding-left:50px;
+    padding-right:40px;
+    color:cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+    height:fit-content;
+    }
+    input[type=range]
+    {
+    -webkit-appearance: none;
+    width:150px;
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+    height: .35em;
+    background: rgb(103, 173, 175);
+    border: none;
+    border-radius: 3px;
+    align-items: center;
+    
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 12px;
+    width: 10px;
+    border-radius: 50%;
+    background: cadetblue;
+    margin-top: -4px;
+    }
+    .border
+    {
+    border-left: 3px solid white;
+    background-color: cadetblue;
+    padding-left : 10px;
+    }
+    .h2-border {
+    border-left: 3px solid cadetblue;
+    background-color: white;
+    padding-left : 10px;
+    }
+    input[type=range]:focus {
+    outline: none;
+    }
+    .my-style2
+    {
+    width:15%;
+    float:left;
+    padding-top:10px;
+    padding-bottom:14%;
+    padding-left:10px;
+    padding-right:10px;
+    
+    background-color:cadetblue;
+    border-style:double;
+    color:white;
+    height:initial;
+    font-family: 'Times New Roman', Times, serif;
+
+    }
+    td{
+    width:200px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    @media only screen and (max-width: 700px) 
+    {
+        .container
+        {
+        width:95%;
+        
+        margin: 2%;
+        padding:2%;
+        box-sizing:border-box;
+        overflow: hidden;
+      
+        }
+        .my-style
+        {
+        width:95%;
+        background-color:cadetblue;
+        border-style: double;
+        color:white;
+        padding:2%;
+        font-family: 'Times New Roman', Times, serif;
+        height:fit-content;
+        }
+        img {
+        width:100px;
+        padding: top 0;
+        border-radius: 50%;
+        align-items: center;
+        
+        }
+        .my-style1
+        { 
+        width:95%;
+        padding:2%;
+        color:cadetblue;
+        font-family: 'Times New Roman', Times, serif;
+        height:fit-content;
+        }
+        input[type=range]
+        {
+        -webkit-appearance: none;
+        width:150px;
+        }
+
+        input[type=range]::-webkit-slider-runnable-track {
+        height: .35em;
+        background: rgb(103, 173, 175);
+        border: none;
+        border-radius: 3px;
+        align-items: center;
+        
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 12px;
+        width: 10px;
+        border-radius: 50%;
+        background: cadetblue;
+        margin-top: -4px;
+        }
+        .border
+        {
+        border-left: 3px solid white;
+        background-color: cadetblue;
+        padding-left : 10px;
+        }
+        .h2-border {
+        border-left: 3px solid cadetblue;
+        background-color: white;
+        padding-left : 10px;
+        }
+        input[type=range]:focus {
+        outline: none;
+        }
+        .my-style2
+        {    
+        width:95%;
+        padding:2%;
+        background-color: cadetblue;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        height:630px;
+        }
+        td{
+        width:200px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+    }
+
+
